@@ -1,0 +1,23 @@
+.loading{
+    background-color: transparent!important;
+}
+.backdrop{
+    background-color: rgba(0,0,0,.1);
+}
+#loader-rotation-spin{
+    margin-top: -25px;
+    background: url("./load-c.svg") no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: 100%;
+    -webkit-animation: spin 1s infinite linear;
+    -moz-animation: spin 1s infinite linear;
+    -ms-animation: spin 1s infinite linear;
+    -o-animation: spin 1s infinite linear;
+    animation: spin 1s infinite linear;
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center;
+}
