@@ -1,4 +1,4 @@
-angular.module('LoaderModule', ['ionic'])
+angular.module('ionic-loader-module', ['ionic'])
 .factory('LoaderModule', function($rootScope, $ionicLoading) {
 
   // Trigger the loading indicator
